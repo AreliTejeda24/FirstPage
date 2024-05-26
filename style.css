@@ -1,0 +1,99 @@
+body{
+    /* Color de fondo */
+    /*background-color: rgba(212, 193, 236, 0.500);*/
+    background:  linear-gradient(#D4C1EC,#F2DFD7);
+    /* Para imagenes de fondo */
+    /* background: url(); */
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    color: rgb(115, 108, 237);
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    color: rgb(77, 105, 129);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(159, 159, 237);
+    font-size: 30px;
+}
+
+h4 {
+    color: rgb(77, 105, 129);
+}
+
+p {
+    color: rgb(82, 85, 88);
+    text-align: justify;
+}
+
+ul {
+    color: rgb(82, 85, 88);
+}
+
+.banner{
+    height: 700px;
+}
+
+#perfil{
+    height: 400px;
+    border-radius: 200px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#presentacion{
+    height: 500px;
+    border-radius: 10px;
+}
+
+.menu{
+    /* background-color: #bd99e99d; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: #787181;
+    text-decoration: none;
+    background-color: #b8aac9d3;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+a:hover{
+    background-color: #af8adb;
+    color: azure;
+}
+
+.parrafo{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+#profile{
+    margin-left: 150px;
+}
+#experience{
+    margin-left: 30px;
+}
+
+.experiencia{
+    display: flex;
+    align-items: center;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
